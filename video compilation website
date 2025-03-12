@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
+    <meta name="description" content="this is a simple lord krishna's video compilation website">
+    <title>Video Compilation Page</title>
+</head>
+
+<body>
+    <main>
+        <h1>Lord Krishna Video Compilation</h1>
+        <p>This is a simple lord krishna's video compilation website.Krishna is a major deity in Hinduism. He is worshipped as the eighth avatar of Vishnu and also as the Supreme God in his own right.He is the god of protection, compassion, tenderness, and love;and is widely revered among Hindu divinities.Krishna's birthday is celebrated every year by Hindus on Krishna Janmashtami according to the lunisolar Hindu calendar, which falls in late August or early September of the Gregorian calendar.</p>
+        <section>
+            <h2>Glowing Krishna</h2>
+            <p>"Glowing Krishna" refers to the divine depiction of Lord Krishna in Hindu mythology, often portrayed radiating a luminous aura or effulgence. This mystical portrayal symbolizes Krishna's transcendental and spiritual nature, highlighting his divine presence and the essence of enlightenment and wisdom that he embodies in Hindu philosophy.</p>
+            <iframe src="https://cdn.pixabay.com/video/2020/01/16/31311-385280134_tiny.mp4" title="glowing krishna" height="400px" width="720px"></iframe>
+        </section>
+        <section>
+            <h2>Krishna Near Yamuna</h2>
+            <p>"Krishna near Yamuna" evokes the enchanting imagery of Lord Krishna by the sacred Yamuna River, a place deeply associated with his divine pastimes. It is along the banks of the Yamuna that Krishna performed his childhood miracles, such as subduing the serpent Kaliya and playing his mesmerizing flute, captivating the Gopis and all beings around him. The Yamuna, often considered a witness to his divine love and leelas, remains a symbol of purity, devotion, and spiritual transcendence in Hindu mythology.</p>
+            <iframe src="https://cdn.pixabay.com/video/2023/11/19/189828-886572705_tiny.mp4"title="krishna near yamuna" height="400px" width="720px"></iframe>
+        </section>
+        <section>
+            <h2>Krishna In The Forest</h2>
+            <p>"Krishna in the forest" portrays the divine moments of Lord Krishna amidst the lush greenery of Vrindavan or other sacred woods. In these serene settings, Krishna is often depicted playing his flute, enchanting the animals, birds, and Gopis with his divine melody. The forest becomes a celestial playground where he performs leelas (divine pastimes), such as dancing with the Gopis (Rasa Leela) and joyfully herding cows with his friends. These depictions symbolize harmony between nature and divinity, emphasizing Krishna's role as the supreme protector and lover of all creation.</p>
+            <iframe src="https://cdn.pixabay.com/video/2023/12/07/192341-892419124_tiny.mp4" title="krishna in the forest" height="400px" width="720px"></iframe>
+        </section>
+    </main>
+</body>
+
+</html>
