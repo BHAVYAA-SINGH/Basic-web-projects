@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="radhe tour and travels provides best available packages to visit vrindavan">
+    <title>Radhe Tour and Travels</title>
+  </head>
+  <body>
+    <main>
+      <h1>Visit Holy Vrindavan</h1>
+      <p>Many people often have a deep desire to visit Vrindavan and at some point in life plan to visit Vrindavan once.We are providing you the opportunity to do so.</p>
+      <h2>Packages</h2>
+      <p>We offers a very comprehensive and budget friendly package to visit vrindavan</p>
+      <ul>
+        <li><a href="https://www.freecodecamp.org/learn" target="_blank">Group Travels</a></li>
+        <li><a href="https://www.freecodecamp.org/learn" target="_blank">Private Tours</a></li>
+      </ul>
+      <section>
+        <h2>Top Itineraries</h2>
+        <figure>
+          <a href="https://www.freecodecamp.org/learn" target="_blank"><img src="https://th.bing.com/th/id/OIP.xTl1-IxR843VEOhTjAxrAwHaEK?w=332&h=187&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="prem mandir"></a>
+          <figcaption>Prem Mandir</figcaption>
+          </figure>
+        <a href="https://www.freecodecamp.org/learn" target="_blank"><img src="https://cdn-gmldj.nitrocdn.com/MzocZdmkUoGzKbfrmziNgKraKcMhCMkx/assets/static/optimized/rev-1cc2619/wp-content/uploads/2022/09/krishna-balaram-1024x682.jpg" alt="isckon vrindavan"></a>
+          <figcaption>Isckon Vrindavan</figcaption>
+          </figure>
+          <a href="https://www.freecodecamp.org/learn" target="_blank"><img src="https://cdn-gmldj.nitrocdn.com/MzocZdmkUoGzKbfrmziNgKraKcMhCMkx/assets/images/optimized/rev-1cc2619/wp-content/uploads/2022/09/nidhivan-vriksa.jpg" alt="nidhivan"></a>
+          <figcaption>Nidhivan</figcaption>
+          </figure>
+      </section>
+      <footer>
+        <p>Grab this wonderful opportunity to visit vrindavan</p>
+        </footer>
+    </main>
+  </body>
+</html>
