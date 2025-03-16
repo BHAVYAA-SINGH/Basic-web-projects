@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+  </head>
+
+  <body>
+    <header>
+      <h1 id="title">Students Survey Form</h1>
+      <p id="description">As part of the quality control process.We seek your assistance in completing the questions in this survey.Your response is already confidential.</p>
+    </header>
+    <main>
+      <form id="survey-form" method="POST" action="action_page.php">
+        <fieldset>
+          <legend>Personal Information</legend>
+          <label id="name-label" for="name">Name: </label>
+          <input id="name" type="text" name="name" placeholder="Enter your name" required>
+          <label id="email-label" for="email">Email: </label>
+          <input id="email" type="email" name="email" placeholder="example@gmail.com" required>
+          <label id="number-label" for="number">Age: </label>
+          <input id="number" type="number" name="age" min="16" max="30" placeholder="Age"required>
+        </fieldset>
+        <fieldset>
+          <legend>Academic Details</legend>
+          <label for="dropdown">Course: </label>
+          <select id="dropdown" name="course">
+            <option value="btech" selected>B.Tech</option>
+            <option value="bba">B.B.A.</option>
+            <option value="bca">B.C.A.</option>
+            <option value="bpharma">B.Pharma</option>
+            <option value="dpharma">D.Pharma</option>
+          </select>
+          <label for="year">Year: </label>
+          <select id="year" name="year">
+            <option value="first">First</option>
+            <option value="second">Second</option>
+            <option value="third" selected>Third</option>
+            <option value="fourth">Fourth</option>
+          </select>
+        </fieldset>
+        <fieldset>
+          <legend>How satisfied are you with the facilities provided by the college?</legend>
+          <label for="very-satisfied">Very Satisfied</label>
+          <input type="radio" id="very-satisfied" value="very-satisfied" name="satisfaction-rating">
+          <label for="satisfied">Satisfied</label>
+          <input type="radio" id="satisfied" value="satisfied" name="satisfaction-rating">
+          <label for="neutral">Neutral</label>
+          <input type="radio" id="neutral" value="neutral" name="satisfaction-rating">
+          <label for="dissatisfied">Dissatisfied</label>
+          <input type="radio" id="dissatisfied" value="dissatisfied" name="satisfaction-rating">
+          <label for="very-dissatisfied">Very Dissatisfied</label>
+          <input type="radio" id="very-dissatisfied" value="very-dissatisfied" name="satisfaction-rating">
+        </fieldset>
+         <fieldset>
+          <legend>How often do you use the library facilities?</legend>
+          <label for="daily">Daily</label>
+          <input type="radio" id="daily" value="daily" name="frequency">
+          <label for="weekly">Weekly</label>
+          <input type="radio" id="weekly" value="weekly" name="frequency">
+          <label for="monthly">Monthly</label>
+          <input type="radio" id="monthly" value="monthly" name="frequency">
+          <label for="rarely">Rarely</label>
+          <input type="radio" id="rarely" value="rarely" name="frequency">
+          <label for="never">Never</label>
+          <input type="radio" id="never" value="never" name="frequency">
+        </fieldset>
+         <fieldset>
+          <legend>To what extent do you agree with the teaching quality?</legend>
+          <label for="strongly-agree">Strongly Agree</label>
+          <input type="radio" id="strongly-agree" value="strongly-agree" name="agreement-scale">
+          <label for="agree">Agree</label>
+          <input type="radio" id="agree" value="agree" name="agreement-scale">
+          <label for="neutral">Neutral</label>
+          <input type="radio" id="neutral" value="neutral" name="agreement-scale">
+          <label for="disagree">Disagree</label>
+          <input type="radio" id="disagree" value="disagree" name="agreement-scale">
+          <label for="strongly-disagree">Strongly Disagree</label>
+          <input type="radio" id="strongly-disagree" value="strongly-disagree" name="agreement-scale">
+        </fieldset>
+         <fieldset>
+          <legend>Which method of communication do you prefer for receiving updates?</legend>
+          <label for="email">Email</label>
+          <input type="radio" id="email" value="email" name="preference">
+          <label for="SMS">SMS</label>
+          <input type="radio" id="SMS" value="SMS" name="preference">
+          <label for="app-notifications">App Notifications</label>
+          <input type="radio" id="app-notifications" value="app-notifications" name="preference">
+          <label for="in-person-notices">In-person Notices</label>
+          <input type="radio" id="in-person-notices" value="in-person-notices" name="preference">
+        </fieldset>
+         <fieldset>
+          <legend>How likely are you to recommend this college to a friend?</legend>
+          <label for="very-likely">Very Likely</label>
+          <input type="radio" id="very-likely" value="very-likely" name="likelihood">
+          <label for="likely">Likely</label>
+          <input type="radio" id="likely" value="likely" name="likelihood">
+          <label for="neutral">Neutral</label>
+          <input type="radio" id="neutral" value="neutral" name="likelihood">
+          <label for="unlikely">Unlikely</label>
+          <input type="radio" id="unlikely" value="unlikely" name="likelihood">
+          <label for="very-unlikely">Very Unlikely</label>
+          <input type="radio" id="very-unlikely" value="very-unlikely" name="likelihood">
+        </fieldset>
+        <fieldset> 
+          <legend>Which workshops would you like the college to organize?</legend>
+          <label for="data-analysis">Data Analysis</label>
+          <input type="checkbox" id="data-analysis" value="data-analysis" name="data-analysis">
+          <label for="cloud-computing">Cloud Computing</label>
+          <input type="checkbox" id="cloud-computing" value="cloud-computing" name="cloud-computing">
+          <label for="ui/ux-design">UI/UX Design</label>
+          <input type="checkbox" id="ui/ux-design" value="ui/ux-design" name="ui/ux-design">
+          <label for="cybersecurity">Cybersecurity</label>
+          <input type="checkbox" id="cybersecurity" value="cybersecurity" name="cybersecurity">
+          <label for="resume-and-interview">Resume Building & Interview Skills</label>
+          <input type="checkbox" id="resume-and-interview" value="resume-and-interview" name="resume-and-interview">
+          <label for="entrepreneurship-and-startups">Entrepreneurship & Startups</label>
+          <input type="checkbox" id="entrepreneurship-and-startups" value="entrepreneurship-and-startups" name="entrepreneurship-and-startups">
+          <label for="ai-ml">AI & Machine Learning</label>
+          <input type="checkbox" id="ai-ml" value="ai-ml" name="ai-ml">
+          <label for="digital-marketing">Digital Marketing</label>
+          <input type="checkbox" id="digital-marketing" value="digital-marketing" name="digital-marketing">
+          <label for="financial-literacy">Financial Literacy</label>
+          <input type="checkbox" id="financial-literacy" value="financial-literacy" name="financial-literacy">
+        </fieldset>
+        <label for="other">Would you like to give any other suggestions?</label>
+        <textarea id="other" rows="5" cols="30"></textarea>
+        <button id="submit" type="submit">Submit</button>
+      </form>
+    </main>
+  </body>
+</html>
