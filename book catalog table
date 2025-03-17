@@ -1,12 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Book Catalog</title>
 </head>
-
 <body>
   <table>
     <thead>
@@ -72,6 +70,6 @@
         <td colspan="4">Total Books: 8</td>
       </tr>
     </tfoot>
+  </table>
 </body>
-
 </html>
