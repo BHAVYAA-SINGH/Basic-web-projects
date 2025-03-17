@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book Catalog</title>
+</head>
+
+<body>
+  <table>
+    <thead>
+      <tr>
+        <th>Title</th>
+        <th>Author</th>
+        <th>Genre</th>
+        <th>Publication Year</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Atomic Habits</td>
+        <td>James Clear</td>
+        <td>Self-help book</td>
+        <td>2018</td>
+      </tr>
+      <tr>
+        <td>Richard III</td>
+        <td>William Shakespeare</td>
+        <td>Drama</td>
+        <td>1600</td>
+      </tr>
+      <tr>
+        <td>The Alchemist</td>
+        <td>Paulo Coelho</td>
+        <td>Fiction</td>
+        <td>1988</td>
+      </tr>
+      <tr>
+        <td>Wings of Fire</td>
+        <td>A.P.J.Abdul Kalam</td>
+        <td>Autobiography</td>
+        <td>1999</td>
+      </tr>
+      <tr>
+        <td>Paradise Lost</td>
+        <td>John Milton</td>
+        <td>Poetry</td>
+        <td>1667</td>
+      </tr>
+      <tr>
+        <td>Steve Jobs</td>
+        <td>Walter Isaacson</td>
+        <td>Biography</td>
+        <td>2011</td>
+      </tr>
+      <tr>
+        <td>The Guns of August</td>
+        <td>Barbara W. Tuchman</td>
+        <td>History</td>
+        <td>1962</td>
+      </tr>
+      <tr>
+        <td>1984</td>
+        <td>George Orwell</td>
+        <td>Science fiction</td>
+        <td>1949</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td colspan="4">Total Books: 8</td>
+      </tr>
+    </tfoot>
+</body>
+
+</html>
