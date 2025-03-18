@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Checkout Page</title>
+</head>
+
+<body>
+  <h1>Checkout</h1>
+  <section>
+      <h2>Your Cart</h2>
+      <img src="https://images.unsplash.com/photo-1542728928-1413d1894ed1?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bGFtcHxlbnwwfHwwfHx8MA%3D%3D" alt="a copperish table lamp">
+      <p>Total Amount:$49</p>
+  </section>
+  <section>
+      <h2>Payment Information</h2>
+      <form>
+        <label for="card-name">Owner</label>
+        <input id="card-name" name="card-name" type="text" aria-required="true" required><br>
+        <label for="card-number">Card Number</label>
+        <input id="card-number" name="card-number" type="number" aria-required="true" required><br>
+        <label for="cvv">CVV</label>
+        <input id="cvv" name="cvv" type="number" aria-required="true" required><br>
+        <label id="expiry">Expiration Date</label>
+        <select name="expiry" aria-labelledby="expiry" id="month" aria-required="true" required>
+          <option value="jan">Jan</option>
+          <option value="feb">Feb</option>
+          <option value="mar">Mar</option>
+          <option value="apr">Apr</option>
+          <option value="may">May</option>
+          <option value="jun">Jun</option>
+          <option value="jul">Jul</option>
+          <option value="aug">Aug</option>
+          <option value="sep">Sep</option>
+          <option value="oct">Oct</option>
+          <option value="nov">Nov</option>
+          <option value="dec">Dec</option> 
+        </select>
+        <select name="expiry" aria-labelledby="expiry"id="year" aria-required="true" required>
+          <option value="2025">2025</option>
+          <option value="2026">2026</option>
+          <option value="2027">2027</option>
+          <option value="2028">2028</option>
+          <option value="2029">2029</option>
+          <option value="2030">2030</option>
+          <option value="2031">2031</option>
+          <option value="2032">2032</option>
+          <option value="2033">2033</option>
+          <option value="2034">2034</option>
+          <option value="2035">2035</option>
+          <option value="2036">2036</option>
+        </select><br>
+        <button type="submit" value="submit" name="submit" id="submit">Submit</button>
+      </form>
+  </section>
+</body>
+
+</html>
