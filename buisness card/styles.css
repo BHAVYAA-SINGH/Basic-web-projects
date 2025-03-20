@@ -1,0 +1,27 @@
+.profile-image{
+    width:200px;
+  }
+  .business-card{
+    width:300px;
+    margin-left:auto;
+    margin-right:auto;
+    background-color:#E2CFCF;
+    margin-top:100px;
+    padding:20px;
+    text-align:center;
+    font-size:16px;
+  }
+  body{
+    background-color:rosybrown;
+    font-family:Arial,sans-serif;
+  }
+  p{
+    margin-top:5px;
+    margin-bottom:5px;
+  }
+  a{
+    text-decoration:none;
+  }
+  a:hover{
+    text-decoration:underline;
+  }
