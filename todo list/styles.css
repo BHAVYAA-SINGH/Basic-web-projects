@@ -1,0 +1,33 @@
+.todo-list{
+  list-style:none;
+}
+.sub-item-link{
+  text-decoration:none;
+}
+.sub-item-link:hover{
+  color:red;
+}
+.sub-item-link:active{
+  color:orange;
+}
+.sub-item-link:focus{
+  outline:2px solid black;
+  color:green;
+}
+.sub-item-link:visited{
+  color:lightblue;
+}
+h1{
+  text-align:center;
+}
+body{
+  background-color:#9AB7D3;
+}
+.list{
+  height:100px;
+  border:2px solid grey;
+  border-radius:25px;
+  background-color:white;
+  margin:5px auto;
+  padding:20px;
+}
